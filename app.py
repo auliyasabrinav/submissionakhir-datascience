@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 
 # Load model
-model = joblib.load('best_model.pkl')
+model = joblib.load('model/best_model.pkl')
 
 # Judul aplikasi
 st.title('Aplikasi Prediksi Status Mahasiswa')
