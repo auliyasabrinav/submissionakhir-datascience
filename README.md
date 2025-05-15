@@ -361,12 +361,56 @@ Dashboard ini merupakan **Dashboard Analitik Mahasiswa** yang bertujuan untuk me
 Dashboard ini sangat bermanfaat bagi pihak kampus atau akademik untuk melakukan evaluasi kinerja pendidikan, meningkatkan tingkat kelulusan, dan mengurangi angka putus studi.
 
 
-## Menjalankan Sistem Machine Learning
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
+## 🚀 Menjalankan Sistem Machine Learning
 
-```
+Untuk menjalankan prototipe sistem machine learning yang telah dibuat, pengguna dapat mengakses aplikasi melalui browser dengan mengunjungi tautan berikut:
 
-```
+🔗 **[Aplikasi Auliya Sabrina](https://submissionakhir-datascience-auliyasbrn.streamlit.app/)**
+
+Aplikasi ini dibuat menggunakan **Streamlit** dan telah di-*deploy* secara online agar dapat diakses oleh siapa saja tanpa perlu menginstal aplikasi secara lokal.
+
+### 🧭 Langkah Penggunaan:
+
+1. Buka tautan aplikasi di atas menggunakan browser.
+2. Isi setiap bagian dari form input sesuai dengan penjelasan pada tabel berikut:
+
+---
+
+### 🧾 Langkah-langkah Input Data
+
+| **Field**                      | **Deskripsi**                                                                 |
+|-------------------------------|------------------------------------------------------------------------------|
+| **Status Pernikahan**          | Pilih status pernikahan mahasiswa *(Single, Married, dsb)*.                  |
+| **Application Mode**           | Jalur pendaftaran yang diambil oleh mahasiswa.                              |
+| **Application Order**          | Urutan pilihan program studi *(0 = pilihan pertama)*.                        |
+| **Course**                     | Jurusan/program studi mahasiswa.                                             |
+| **Daytime/Evening Attendance** | Pilih apakah mahasiswa hadir di siang hari atau malam.                      |
+| **Previous Qualification**     | Tingkat pendidikan terakhir mahasiswa.                                       |
+| **Previous Qualification Grade** | Nilai akhir dari pendidikan sebelumnya *(0 - 200)*.                          |
+| **Nationality**                | Kewarganegaraan mahasiswa.                                                  |
+| **Mother's Qualification**     | Kualifikasi pendidikan ibu mahasiswa.                                       |
+| **Father's Qualification**     | Kualifikasi pendidikan ayah mahasiswa.                                      |
+| **Dan seterusnya...**          |
+
+> Setelah semua data diisi, akan muncul tombol untuk mendapatkan hasil **prediksi status mahasiswa**.
+
+---
+
+## 🧠 Output yang Akan Ditampilkan
+
+Setelah seluruh input diberikan:
+
+1. Model akan memproses data yang telah dimasukkan.
+2. Status mahasiswa akan ditampilkan sebagai hasil prediksi, berupa:
+   - `Graduated`
+   - `Dropout`
+   - `Enrolled`
+
+---
+
+Sistem ini secara otomatis menjalankan model machine learning yang telah dilatih sebelumnya dan menampilkan hasil analisis secara **interaktif** langsung di browser.
+
+
 
 ## Conclusion
 
